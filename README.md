@@ -19,3 +19,9 @@ Rock Paper Scissors Game This is a basic rock paper scissors game where two play
 
 Rules of the Game - Rock beats Scissors - Paper beats Rock - Scissors beats Paper 
  Usage To run the game, simply execute the rock_paper_scissors.py file in your terminal or IDE. The script will prompt the two players to enter their choices for each round. Example: Enter Player 1's choice (R/P/S): R Enter Player 2's choice (R/P/S): S Player 1 wins! Enter Player 1's choice (R/P/S): P Enter Player 2's choice (R/P/S): P Draw! ... Final Winner: Player 1 The final winner is determined based on the number of rounds won by each player. If there is a tie, the game will declare a draw
+
+# Question 4
+API to print Bitcoin price in USD and GBP This API retrieves real-time Bitcoin price data in USD and GBP from the coindesk.com API. The data is collected every 5 minutes for a duration of 1 day. It ensures that consecutive data points have different.
+Once you have your API key, you can use it to access the real-time Bitcoin price data in USD and GBP. 
+### Installation To use this API, you will need to make a GET request to the following URL:
+https://api.coindesk.com/v1/bpi/currentprice This will return the current Bitcoin price data in JSON format. ### Usage To access the Bitcoin price data using this API, simply make a GET request to the above URL with your API key included in the request headers. You can then parse the JSON-formatted data to retrieve the Bitcoin price in USD and GBP.
